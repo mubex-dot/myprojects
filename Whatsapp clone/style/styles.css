@@ -1,0 +1,166 @@
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* =================TYPOGRAPHY================= */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img {
+  margin: 0;
+  font-size: 1em;
+}
+img {
+  max-width: 250px;
+  max-height: 250px;
+  margin: 0;
+}
+ol {
+  padding: 1rem;
+}
+.main-content .col1 a {
+  color: #128c7e;
+}
+.main-content .col1 a:hover,
+.main-content .col1 a:focus {
+  color: #075e54;
+}
+.main-content .col2 p {
+  text-align: center;
+  color: gray;
+}
+
+/* =================CLASSES================= */
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.background {
+  color: #fff;
+  background-color: #128c7e;
+  padding: 2rem 5rem 8rem 1rem;
+  display: block;
+}
+.main-content,
+.col1,
+.col2 {
+  margin: 2rem;
+}
+.main-content {
+  display: flex;
+  background: #fff;
+  position: absolute;
+  top: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.col1 {
+  text-align: left;
+}
+
+@media (max-width: 730px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  img,
+  ol,
+  li,
+  a {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+}
+@media (max-width: 630px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  img,
+  ol,
+  li,
+  a {
+    margin: 0;
+    font-size: 0.9em;
+  }
+  img {
+    max-width: 200px;
+    max-height: 200px;
+    margin: 0;
+  }
+  .col1,
+  .col2 {
+    margin: 1.5rem;
+  }
+}
+@media (max-width: 530px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  img,
+  ol,
+  li,
+  a {
+    margin: 0;
+    font-size: 0.7em;
+  }
+  img {
+    max-width: 150px;
+    max-height: 150px;
+    margin: 0;
+  }
+  .col1,
+  .col2 {
+    margin: 1.5rem;
+  }
+}
+
+@media (max-width: 470px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  img,
+  ol,
+  li,
+  a {
+    margin: 0;
+    font-size: 0.7em;
+  }
+  img {
+    max-width: 100px;
+    max-height: 100px;
+    margin: 0;
+  }
+  .col1,
+  .col2 {
+    margin: 1rem;
+  }
+}
